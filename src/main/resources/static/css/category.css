@@ -1,0 +1,16 @@
+.category{
+    margin-right: 100px;
+}
+.img-category img{
+    width: 400px;
+    padding-bottom: 20px;
+}
+.button-category{
+    background-color: white;
+    margin-bottom: 5px;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+    border: white;
+}

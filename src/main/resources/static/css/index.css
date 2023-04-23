@@ -1,0 +1,19 @@
+.homepage{
+    width: 70%;
+    background-color: whitesmoke;
+    margin-left: 15%;
+
+}
+
+.addtitle{
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+
+}
+.addtitle i{
+    color: orange;
+    font-size: 100px;
+
+
+}

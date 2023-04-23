@@ -1,0 +1,36 @@
+
+<!--Profile card start-->
+<div class="row">
+  <div class="col-12 col-sm-12 col-md-1 col-xl-1" >
+    <div th:fragment="customCards"  class="card" th:each="allArticles:${allArticle}" >
+      <div class="card-image">
+        <img th:src="${allArticles.imgUrl}" alt="">
+      </div>
+      <div class="flex-div">
+        <div class="profile-image" >
+          <img  th:src="${allArticles.author.image}" alt="">
+        </div>
+        <div>
+          <h4 th:text="${allArticles.author.name}" >HELLO</h4>
+          <p>@<span th:text="${allArticles.author.name}" ></span></p>
+
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 th:text="${allArticles.title}"></h3>
+        <p th:text="${allArticles.description}">hjgfchjdfgjhdg</p>
+      </div>
+      <div class="icons">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-youtube"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-whatsapp"></a>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<!--Profile card end-->
