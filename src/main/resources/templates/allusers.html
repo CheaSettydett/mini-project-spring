@@ -15,7 +15,7 @@
 <div th:replace="~{fragment/navbar::customNavbar}"></div>
 
 <div class="container">
-  <h1> All Users </h1>
+  <h1 th:text="|All Users : ${Authors.size()} |"></h1>
     <div class="card-author">
         <div class="row">
             <div class="col-4" th:each="Author:${Authors}">
